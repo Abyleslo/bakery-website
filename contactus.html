@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Italianno&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="free">
+        <div class="header">
+            <li id="title"><a href=index.html>My Bakery</a></li>
+            <li class="headermenu"><a href=menu.html>Menu</a></li>
+            <li class="headermenu"><a href=gallary.html>Photo gallery</a></li>
+            <li class="headermenu"><a href=contactus.html>Contact us</a></li>
+            <li class="headermenu"><a href=aboutus.html>About us</a></li>
+        </div>
+        <div id="form">
+            <form action="mail.php" method="post">
+                <div id="name">
+                    <label style="color: azure; font-size: 25px;" id="name" for="name">Your name</label>
+                    <input type="text" name="name" placeholder="Enter your name">
+                </div>
+                
+                <div id="email">
+                    <label style="color: azure;font-size: 25px; for="email">Email</label>
+                    <input id="email" type="email" name="email" placeholder="Enter your email address">
+                </div>
+
+                <div id="msg">
+                    <label style="color: azure;font-size :25px;" id="message" for="message">Message</label>
+                    <textarea name="message"  cols="30" rows="1" placeholder="Write something..."></textarea>
+                </div>
+
+                <div id="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+</body>
+</html>
